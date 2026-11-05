@@ -1,11 +1,11 @@
 # ==========================================
 # DevOps Lab 2 - Production Multi-Stage Dockerfile
-# Candidate: Akash (Roll No: 2301730184 | ad1646414@gmail.com@gmail.com)
+
 # ==========================================
 FROM python:3.11-slim AS builder
 
-LABEL maintainer="Akash <ad1646414@gmail.com@gmail.com>"
-LABEL student.roll="2301730184"
+LABEL maintainer="Harsh <iharshsen08@gmail.com>"
+LABEL student.roll="2301730194"
 
 WORKDIR /app
 
@@ -23,8 +23,8 @@ RUN pip install --no-cache-dir --user -r requirements.txt
 # ==========================================
 FROM python:3.11-slim AS runner
 
-LABEL maintainer="Akash <ad1646414@gmail.com@gmail.com>"
-LABEL student.roll="2301730184"
+LABEL maintainer="harsh <iharshsen08@gmail.com>"
+LABEL student.roll="2301730194"
 
 WORKDIR /app
 
