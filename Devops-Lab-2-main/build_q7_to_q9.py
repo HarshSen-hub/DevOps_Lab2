@@ -1,6 +1,5 @@
 """
 DevOps Lab 2 - Submissions for Questions 7, 8, and 9
-Student: Akash (Roll No: 2301730184)
 """
 
 import os
