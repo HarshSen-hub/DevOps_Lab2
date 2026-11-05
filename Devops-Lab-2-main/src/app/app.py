@@ -1,8 +1,8 @@
 """
 DevOps Lab 2 - Sample Microservice Application
-Candidate: Akash
-Roll Number: 2301730184
-Email: ad1646414@gmail.com@gmail.com
+Candidate: Harsh
+Roll Number: 2301730194
+Email: iharshsen08@gmail.com
 """
 
 import os
@@ -16,9 +16,9 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Candidate & Environment metadata
-STUDENT_NAME = "Akash"
-STUDENT_ROLL = "2301730184"
-STUDENT_EMAIL = "ad1646414@gmail.com@gmail.com"
+STUDENT_NAME = "Harsh"
+STUDENT_ROLL = "2301730194"
+STUDENT_EMAIL = "iharshsen08@gmail.com"
 APP_VERSION = os.getenv("APP_VERSION", "1.0.0")
 APP_ENV = os.getenv("APP_ENV", "production")
 HOSTNAME = socket.gethostname()
